@@ -27,7 +27,7 @@ function Contact() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/applications",
+        "https://sarala-mehendi-api.onrender.com/api/applications",
         {
           method: "POST",
           headers: {

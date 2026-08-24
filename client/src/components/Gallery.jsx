@@ -87,7 +87,7 @@ function Gallery() {
       setLoading(true);
 
       const response = await fetch(
-        "http://localhost:5000/api/gallery"
+        "https://sarala-mehendi-api.onrender.com/api/gallery"
       );
 
       const data = await response.json();
@@ -442,4 +442,4 @@ function Gallery() {
   );
 }
 
-export default Gallery;
+export default Gallery;   

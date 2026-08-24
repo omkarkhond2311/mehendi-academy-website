@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://sarala-mehendi-api.onrender.com";
 
 function AdminLogin() {
   const [email, setEmail] = useState("");
