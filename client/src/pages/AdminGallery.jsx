@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API_URL = "https://sarala-mehendi-api.onrender.com/api/gallery";
+const API_URL = "https://sarala-mehendi-api.onrender.com";
 
 function AdminGallery() {
   const [image, setImage] = useState(null);
